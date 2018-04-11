@@ -32,6 +32,6 @@ inquirer
     if (inquirerResponse.confirm) {
       console.log("Lets Play");
       console.log("---You have " + guessesLeft + " guesses left---");
-      console.log(randomSmartWord.smartLetters.wrongValue);
+      console.log(randomSmartWord.showSmartLetters());
     }
   });
